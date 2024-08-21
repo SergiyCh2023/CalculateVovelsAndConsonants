@@ -17,6 +17,9 @@ public class Main {
         array = solution.calculatingVowelsAndConsonant("rrr");
         System.out.println("=======>>>>" + "Vowels is: " + array[0] + "  Consonant is: " + array[1]);
 
+
+
+
         }
 
 }
