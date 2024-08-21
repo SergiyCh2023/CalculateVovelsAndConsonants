@@ -6,6 +6,7 @@ public class Solution {
 
         if (s.length() == 0) throw new NoLettersInString();
 
+
         String newString = s.replaceAll("\\s+", "");
         String [] array = newString.split("");
 
