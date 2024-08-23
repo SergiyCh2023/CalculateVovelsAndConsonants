@@ -1,4 +1,4 @@
-name: Calculating Vowels and Consonants
+name: Calculating vowels and consonants
 
 on:
     pull_request:
@@ -9,7 +9,8 @@ on:
         - 'master'
 
 jobs:
-  build:
+  tests:
+      name: Check out calculating vowels and consonants
       runs-on: windows-latest
 
       steps:
@@ -21,5 +22,6 @@ jobs:
             distribution: 'temurin'
 
         - name: Test with Gradle
-          run: gradlew.bat test
+          run: gradle test --rerun
+
 
