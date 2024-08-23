@@ -22,6 +22,6 @@ jobs:
             distribution: 'temurin'
 
         - name: Test with Gradle
-          run: run: gradle test --rerun
+          run: gradle test --rerun
 
 
